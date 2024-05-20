@@ -138,6 +138,36 @@ local ConsumableItems = {
 	211254 -- Timerunner's Bandage
 }
 
+local Threads = {
+	219264, -- Temporal thread of experiance
+	219257, -- Temporal thread of stamina
+	219256, -- Temporal thread of power
+	219263, -- Temporal thread of versatility
+	219261, -- Temporal thread of leech
+	219258, -- Temporal thread of critical strike
+	219260, -- Temporal thread of speed
+	219259, -- Temporal thread of haste
+	219262, -- Temporal thread of mastery
+	219273, -- perpetual thread of experiance
+	219226, -- perpetual thread of stamina
+	219271, -- perpetual thread of mastery
+	219265, -- perpetual thread of power
+	219272, -- perpetual thread of versatility
+	219270, -- perpetual thread of leech
+	219267, -- perpetual thread of critical strike
+	219269, -- perpetual thread of speed
+	219268, -- perpetual thread of haste
+	219282, -- infinite thread of experiance
+	219275, -- infinite thread of stamina
+	219274, -- infinite thread of power
+	219281, -- infinite thread of versatility
+	219279, -- infinite thread of leech
+	219276, -- infinite thread of critical strike
+	219278, -- infinite thread of speed
+	219277, -- infinite thread of haste
+	219280 -- infinite thread of mastery
+}
+
 local colorPrefix = '|cff00FF98'
 local resetColor = '|r'
 
@@ -167,4 +197,8 @@ end
 
 for _, ItemID in pairs(ConsumableItems) do
 	categories:AddItemToCategory(ItemID, colorPrefix .. 'Consumables' .. resetColor)
+end
+
+for _, ItemID in pairs(Threads) do
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Threads' .. resetColor)
 end
