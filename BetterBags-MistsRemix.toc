@@ -1,9 +1,12 @@
 ## Interface: 100207
 ## Title: BetterBags - Mists Remix
 ## Notes: Filters all gems and usable items for Mists Remix
-## Version: 1.0.0
+## IconTexture: Interface/Addons/BetterBags-Openable/Icon
+## Version: @project-version@
 ## Author: wutname1
 ## X-Category: Bags & Inventory
+## X-Curse-Project-ID: 1021669
+## X-Github: https://github.com/Wutname1/BetterBags-MistsRemix
 ## Dependencies: BetterBags
 
 main.lua
