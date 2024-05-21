@@ -139,6 +139,10 @@ local ConsumableItems = {
 }
 
 local Threads = {
+	226142, -- Greater Spool of Eternal Thread
+	226143, -- Spool of Eternal Thread
+	226144, -- Lesser Spool of Eternal Thread
+	226145, -- Minor Spool of Eternal Thread
 	219264, -- Temporal thread of experiance
 	219257, -- Temporal thread of stamina
 	219256, -- Temporal thread of power
