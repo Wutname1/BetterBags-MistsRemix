@@ -18,3 +18,5 @@ BetterBags Mists Remix helps organize and categorize various types of items for 
 - **Utility Items**: Categorizes items with utility functions.
 - **Consumables**: Categorizes consumable items.
 - **Threads**: Categorizes temporal and perpetual threads.
+
+![Example sort](https://media.forgecdn.net/attachments/871/87/screenshot-2024-05-20-032701.png)

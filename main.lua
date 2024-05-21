@@ -169,36 +169,35 @@ local Threads = {
 }
 
 local colorPrefix = '|cff00FF98'
-local resetColor = '|r'
 
 for _, ItemID in pairs(MetaGems) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Meta Gems' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Meta Gems')
 end
 
 for _, ItemID in pairs(CogWheels) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Cogwheel Gems' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Cogwheel Gems')
 end
 
 for _, ItemID in pairs(Tinker) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Tinker Gems' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Tinker Gems')
 end
 
 for _, ItemID in pairs(Prismatic) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Prismatic Gems' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Prismatic Gems')
 end
 
 for _, ItemID in pairs(BuffItems) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Buff Items' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Buff Items')
 end
 
 for _, ItemID in pairs(UtilityItems) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Utility Items' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Utility Items')
 end
 
 for _, ItemID in pairs(ConsumableItems) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Consumables' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Consumables')
 end
 
 for _, ItemID in pairs(Threads) do
-	categories:AddItemToCategory(ItemID, colorPrefix .. 'Threads' .. resetColor)
+	categories:AddItemToCategory(ItemID, colorPrefix .. 'Threads')
 end
