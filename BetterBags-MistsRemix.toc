@@ -1,4 +1,4 @@
-## Interface: 100207
+## Interface: 110000
 ## Title: BetterBags - Mists Remix
 ## Notes: Filters all gems and usable items for Mists Remix
 ## IconTexture: Interface/Addons/BetterBags-Openable/Icon
